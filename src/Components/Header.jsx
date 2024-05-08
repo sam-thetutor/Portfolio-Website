@@ -1,6 +1,4 @@
-import { navigate } from 'astro/virtual-modules/transitions-router.js';
 import React from 'react'
-import { DiVim } from 'react-icons/di';
 import { IoLogoYoutube } from "react-icons/io5";
 import { useNavigate } from 'react-router-dom';
 
