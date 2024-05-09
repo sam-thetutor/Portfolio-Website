@@ -25,6 +25,20 @@ const allTags = [...new Set(edges.flatMap(({ node }) => node.tags.map((tag) => t
 
   }
 
+  export const introductionPost ={
+    title: "How to Build a Secure and Decentralized Blog Website on the Blockchain",
+      introductionContent: "Beyond cryptocurrencies, Blockchain technology offers tools to build secure, transparent applications fully controlled by the user. Building a blog website on the blockchain allows the user to establish a censorship resistant space where they retain full ownership of their content and data.In this article, we will look at how to create and host your blog website on the blockchain using Juno. Juno is an open-source Blockchain-as-a-service platform that offers a fully decentralized and secure infrastructure for your applications. This article will cover setting up a boilerplate project, configuring the hosting, developing the code for your blog and deploying the project on the blockchain using some of Juno's super powers.By the end of this article, you will have an understanding of how Juno works, how to host your websites on the blockchain and how to automate the different tasks using Github Actions.",
+      image: "https://juno.build/assets/images/project-complete-b24c4bfccb40cfd234cd724b34dc978b.png",
+      linkToArticle: "https://juno.build/blog/how-to-build-a-secure-and-decentralized-blog-website-on-the-blockchain",
+      tags: "Blockchain",
+      publishedAt: "April 30, 2024"
+
+  }
+
+
+
+
+
 export const myData = {
       "publication": {
         "isTeam": false,
