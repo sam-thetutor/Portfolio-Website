@@ -25,7 +25,7 @@ const allTags = [...new Set(edges.flatMap(({ node }) => node.tags.map((tag) => t
 
   }
 
-  export const introductionPost ={
+  export const introductionPost =[{
     title: "How to Build a Secure and Decentralized Blog Website on the Blockchain",
       introductionContent: "Beyond cryptocurrencies, Blockchain technology offers tools to build secure, transparent applications fully controlled by the user. Building a blog website on the blockchain allows the user to establish a censorship resistant space where they retain full ownership of their content and data.In this article, we will look at how to create and host your blog website on the blockchain using Juno. Juno is an open-source Blockchain-as-a-service platform that offers a fully decentralized and secure infrastructure for your applications. This article will cover setting up a boilerplate project, configuring the hosting, developing the code for your blog and deploying the project on the blockchain using some of Juno's super powers.By the end of this article, you will have an understanding of how Juno works, how to host your websites on the blockchain and how to automate the different tasks using Github Actions.",
       image: "https://juno.build/assets/images/project-complete-b24c4bfccb40cfd234cd724b34dc978b.png",
@@ -33,7 +33,18 @@ const allTags = [...new Set(edges.flatMap(({ node }) => node.tags.map((tag) => t
       tags: "Blockchain",
       publishedAt: "April 30, 2024"
 
+  },
+  {
+    title: "How to Launch Your First Memecoin Token on the Internet Computer (ICP)",
+      introductionContent: "Memecoins are starting to gain significant traction. Some of these tokens, such as Windowge98, Damonic Welleams, Wumbo, Spellkaster and $stik, have reached high prices and attracted many retail investors into the ecosystem. Now, you may be wondering how these meme tokens were launched. In this article, we will walk you through all the steps you need to follow in order to create your own memecoin project",
+      image: "https://juno.build/assets/images/memecoin-complete-project-bd061437676a4795aa995edd6a65d04d.png",
+      linkToArticle: "https://juno.build/blog/how-to-launch-your-first-memecoin-token-on-the-internet-computer-icp",
+      tags: "Blockchain",
+      publishedAt: "July 16, 2024"
+
   }
+
+]
 
 
 

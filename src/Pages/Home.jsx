@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import Profilepic from "../assets/profile.jpg"
+// import Profilepic from "../assets/profile.jpg"
 import { FaTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
@@ -45,13 +45,13 @@ const Home = () => {
             <h2 className='font-bold'>Contact me</h2>
             <div className='flex  gap-6 text-lg'>
             <FaTwitter color="lightblue" className='cursor-pointer' size={25} onClick={()=>window.open('https://twitter.com/samthetutor2')} />
-            <FaLinkedin size={25} />
-            <BiLogoGmail size={25} />
-            </div>
+            <FaLinkedin size={25} className='cursor-pointer' onClick={()=>window.open('https://twitter.com/samthetutor2')}/>
+            <BiLogoGmail size={25} className='cursor-pointer' />
+            </div> 
           </div>
 
         </div>
-        <img className='object-cover rounded-lg rounded-bl-[50%]' src={Profilepic} alt="profile image" />
+        <img className='object-cover rounded-lg rounded-bl-[50%]' src="https://a2ede-rqaaa-aaaal-ai6sq-cai.raw.icp0.io/uploads/samuel.1563.1563.png" alt="profile image" />
       </div>
     </div>
 
